@@ -1,0 +1,16 @@
+Over the past several decades, automation using robotic actuators has become
+increasingly popular. Not only do robotic actuators reduce the amount of human labor involved
+in a given process, but they are also often considerably larger, stronger, and more dexterous than
+a human worker. Amongst the many different robotic manipulators available, cable-driven
+parallel robots are some of the most effective configurations in a factory setting because of their
+relatively high-end effector strength, stiffness, and extensive workspace. These systems function
+by connecting at least 6 cables between the boundaries of the workspace and the robot’s end
+effector, tensioning each cable such that the end effector remains stable at any given
+configuration. Unlike rigid actuator parallel robots, a cable-driven robot must keep each actuator
+in tension, as they are incapable of generating force in compression. In such a system, 6 cables is
+the minimum number of actuators required to effectively span the workspace, though additional
+cables are typically required to ensure stable operation.
+
+This project demonstrates the stability of a Wire-Actuated Parallel Robot with both 7 and 8 Wires.
+The overall goal of this project was to construct and simulate the forward kinematics of a 7-cable and 8-cable
+robot, analyze the resulting change in mobility, stability, workspace, and cable tensions.
